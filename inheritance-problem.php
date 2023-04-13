@@ -44,10 +44,12 @@ class cetakInfoProduk
 }
 
 $produk1 = new Produk("One Piece", "Eichiro Oda", "Shonen Jump", 30000, 200, 0, "Komik");
-$produk2 = new Produk("Uncharted", "Neill Druckmann", "Sony Computer Entertaintmen", 429000, 0, 50, "Game");
+$produk2 = new Produk("Uncharted", "Neill Druckmann", "Sony Computer", 429000, 0, 50, "Game");
 // $infoProduk1 = new cetakInfoProduk;
 // echo $infoProduk1->cetak($produk1);
 
 
 echo $produk1->getInfoLengkap();
+echo "<br>";
+echo $produk2->getInfoLengkap();
 // $produk2 = new Produk();
